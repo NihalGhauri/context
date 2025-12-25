@@ -21,7 +21,7 @@ load_dotenv()
 Ai = os.getenv("GEMINI")
 
 if not Ai:
-    raise ValueError ("fuck you")
+    raise ValueError ("Ai not found")
 
 
 external_client = AsyncOpenAI(
